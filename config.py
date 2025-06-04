@@ -18,11 +18,11 @@ DASHBOARD_HOSTNAME = os.environ.get("DASHBOARD_HOSTNAME","placeholder")
 
 flask_app_config = {
     "debug": os.environ.get("FLASK_DEBUG_OPTION", True),
-    "use_reloader": os.environ.get("FLASK_RELOADER_OPTION", True),
+    "use_reloader": os.environ.get("FLASK_RELOADER_OPTION", False),
     "host": os.environ.get("FLASK_HOST", "0.0.0.0"),
     "port": os.environ.get("FLASK_PORT", 5000),
 }
 flask_app_init = {
-    "static_url_path": os.environ.get("STATIC_URL_PATH", '/{}'.format(MEDIA_DIR_NAME)),
-    "static_folder": os.environ.get("STATIC_FOLDER", MEDIA_DIR_NAME),
+    "static_url_path":  '/{}'.format(MEDIA_DIR_NAME),
+    "static_folder":  MEDIA_DIR_NAME,
 }
