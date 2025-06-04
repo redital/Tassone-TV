@@ -4,8 +4,6 @@ services:
     container_name: tassone-tv
     volumes:
       - ./media:/app/media
-      - ./channels.json:/app/channels.json
-      - ./state.json:/app/state.json
     environment:
       - PYTHONUNBUFFERED=1
 
