@@ -1,4 +1,4 @@
-*.json
+state.json
 *.env
 
 
