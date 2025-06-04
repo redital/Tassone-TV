@@ -1,7 +1,6 @@
 version: '3'
 services:
   tassone-tv:
-    build: .
     container_name: tassone-tv
     volumes:
       - ./media:/app/media
