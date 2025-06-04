@@ -34,9 +34,10 @@ def load_state():
 
     if not os.path.exists(STATE_PATH):
         with open(STATE_PATH, 'w') as f:
+            print("NON HO TROVATO IL FILE IN {} E QUINDI LO CREO")
             json.dump({"current_channel": "rai_tg24", "local_channels": {}}, f)
     with open(STATE_PATH) as f:
-        return json.load(f)
+        return json.load(f) 
 
 def save_state(state):
     with open(STATE_PATH, 'w') as f:
