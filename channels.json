@@ -4,5 +4,6 @@
   "euronews": { "type": "m3u8", "url": "https://rakuten-euronews-1-gb.samsung.wurl.com/manifest/playlist.m3u8" },
   "sport_italia": { "type": "m3u8", "url": "https://di-kzbhv8pw.vo.lswcdn.net/sportitalia/sihd/playlist.m3u8" },
   "k2": { "type": "m3u8", "url": "https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8" },
-  "camera_cafe": { "type": "local", "path": "camera_cafe" }
+  "camera_cafe": { "type": "local", "path": "camera_cafe" },
+  "RTL102_5": { "type": "m3u8", "url": "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8" },
 }
